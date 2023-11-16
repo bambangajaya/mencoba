@@ -1,0 +1,566 @@
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.awal1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgb(2, 2, 2, 0.8) ;
+}
+
+.awal1 .logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.awal1 .logo span{
+    color: aqua;
+}
+
+.awal1 .awal a{
+    color: white;
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 0 1rem;
+}
+
+.awal1 .awal a:hover{
+    color: aqua;
+}
+
+.tampilan{
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(./image2/foto.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tampilan .nikah{
+    padding: 1.4rem 7%;
+    max-width: 70rem;
+}
+
+.tampilan .nikah h1{
+    color: white;
+    font-size: 5rem;
+}
+
+.daftar {
+    padding: 15rem 7% 1.4rem;
+
+}
+.font {
+    padding: 1rem 0;
+}
+.formss {
+    padding: 1.4rem 7%;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: static;
+    margin-top: 2rem;
+    
+  }
+  
+  .forms label.text {
+    font-size: 0.75rem;
+    color: #0d0d0d;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #e8e8e8;
+    width: fit-content;
+  }
+
+  
+  .forms input[type=text].input {
+    padding: 10px 20rem;
+    font-size: 0.75rem;
+    border: 2px #101011 solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+    margin-left: 3rem;
+  }
+  
+.formss button{
+    margin-top: 2%;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(69, 69, 68);
+}
+  
+  
+.alamat {
+    padding: 15rem 7% 1.4rem;
+
+}
+.alamat  p{
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.6;
+    padding: 1rem 0;
+    
+}
+.alamat .mapss {
+    display: flex;
+    margin-top: 2rem;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.alamat .mapss .map{
+    flex: 1 1 45rem;
+    width: 300%;
+    height: 400px;
+    object-fit: cover;
+}
+ .fotter-end p{
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.6;
+    padding: 1rem 0;
+}
+
+
+
+.wedding-foto{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(./image2/wedding1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wedding-foto .marry h2{
+    color: white;
+    font-size: 1rem;
+}
+
+.wedding-foto2{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(./image2/wedding2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wedding-foto2 .marry2 h2{
+    color: white;
+    font-size: 1rem;
+}
+.wedding-foto3{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(./image2/wedding3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wedding-foto3 .marry3 h2{
+    color: white;
+    font-size: 1rem;
+}
+.wedding-foto4{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(./image2/wedding4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wedding-foto4 .marry4 h2{
+    color: white;
+    font-size: 1rem;
+}
+
+.wedding-foto5{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(./image2/wedding5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wedding-foto5 .marry5 h2{
+    color: white;
+    font-size: 1rem;
+}
+.wedding-foto6{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(./image2/wedding6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wedding-foto6 .marry6 h2{
+    color: white;
+    font-size: 1rem;
+}
+.wedding-foto7{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(./image2/wedding7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wedding-foto7 .marry7 h2{
+    color: white;
+    font-size: 1rem;
+}
+
+.wedding-foto8{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(./image2/wedding8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wedding-foto8 .marry8 h2{
+    color: white;
+    font-size: 1rem;
+}
+.wedding-foto9{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(./image2/wedding9.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wedding-foto9 .marry9 h2{
+    color: white;
+    font-size: 1rem;
+}
+.wedding-foto10{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url(./image2/wedding10.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wedding-foto10 .marry10 h2{
+    color: white;
+    font-size: 1rem;
+}
+.bawahan{
+    color: white;
+    padding: 5rem 7%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 1rem;
+    display: flex;
+    letter-spacing: 2px;
+
+}
+.kelas-bawah{
+    color: white;
+    padding: 0 7%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rempx;
+    display: flex;
+    letter-spacing: 2px;
+}
+
+.video-title{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./image2/pernikahan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.video-title .video-body  h2{
+    color: white;
+    font-size: 3rem;
+}
+
+
+.full-video  {
+display: flex;
+margin-top: 5rem;
+flex-wrap: wrap;
+padding: 2rem 10%;
+align-items: center;
+}
+
+.full-video .video1 {
+width: 500px;
+height: 400px;
+padding:2rem 2rem;
+}
+.full-video .video2{
+    width: 500px;
+    height: 400px;
+    justify-content: right;
+    padding: 2rem 2rem;
+}
+
+.full-video .video3 {
+    width: 500px;
+    height: 400px;
+    padding: 2rem 2rem;
+}
+ .full-video .video4 {
+ width: 500px;
+ height: 400px;
+ justify-content: right;
+ padding: 2rem 2rem;
+ }
+ .full-video .video5 {
+width: 500px;
+height: 400px;
+padding: 2rem 2rem;
+}
+ .full-video .video6 {
+ width: 500px;
+ height: 400px;
+ justify-content: right;
+ padding: 2rem 2rem;
+ }
+ .full-video .video7 {
+width: 500px;
+height: 400px;
+padding: 2rem 2rem;
+ }
+ .full-video .video8 {
+ width: 500px;
+ height: 400px;
+ justify-content: right;
+ padding: 2rem 2rem;
+ }
+  .full-video .video9{
+ width: 500px;
+height: 400px;
+padding: 2rem 2rem;
+ }
+ .full-video .video10{
+ width: 500px;
+ height: 500px;
+ justify-content: right;
+ padding: 2rem 2rem;
+ }
+ .full-video .video11 {
+    width: 500px;
+    height: 400px;
+    padding:2rem 2rem;
+    }
+    .full-video .video12{
+        width: 500px;
+        height: 500px;
+        justify-content: right;
+        padding: 2rem 2rem;
+    }
+    
+    .full-video .video13 {
+        width: 500px;
+        height: 400px;
+        padding: 2rem 2rem;
+    }
+     .full-video .video14 {
+     width: 500px;
+     height: 450px;
+     justify-content: right;
+     padding: 2rem 2rem;
+     }
+     .full-video .video15 {
+    width: 500px;
+    height: 400px;
+    padding: 2rem 2rem;
+    }
+     .full-video .video16 {
+     width: 500px;
+     height: 400px;
+     justify-content: right;
+     padding: 2rem 2rem;
+     }
+     .full-video .video17 {
+    width: 500px;
+    height: 400px;
+    padding: 2rem 2rem;
+     }
+     .full-video .video18 {
+     width: 500px;
+     height: 400px;
+     justify-content: right;
+     padding: 2rem 2rem;
+     }
+      .full-video .video19{
+     width: 500px;
+    height: 400px;
+    padding: 2rem 2rem;
+     }
+     .full-video .video20{
+     width: 500px;
+     height: 400px;
+     justify-content: right;
+     padding: 2rem 2rem;
+     }
+.about-title{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./image2/profile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-title .about-body  h2{
+    color: white;
+    font-size: 3rem;
+    padding: 0 2rem;
+}
+.about-title .about-body p{
+    color: white;
+    font-size: 3rem;
+}
+.informasi{
+    padding: 1.4rem 7%;
+}
+ .informasi .abouts {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    
+}
+
+.aboutss {
+    padding: 1rem 0;
+    align-items: center;
+    font-size: 1rem;
+}
+.kanan{
+    padding: 1.4rem 7%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.promo{
+    width: 700px;
+    height: 450px;
+    background-image: url(./image2/Promo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-promo{
+    padding: 1.4rem 7%;
+}
+
+.text-promo .awalan{
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+.awalan1{
+    padding: 2rem 5rem;
+    align-items: center;
+    justify-content: center;
+}
+.text-promo .awalan1 h3{
+    font-size: 2rem;
+}
+.text-promo .awalan p{
+    padding: 2rem 0;
+    font-size: 1.2rem;
+}
+.awalan2{
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 5rem;
+}
+.list-promo{
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 1rem 7rem;
+    border-bottom: 1px solid white;
+}
+.forms label.text {
+    font-size: 0.75rem;
+    color: #0d0d0d;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #e8e8e8;
+    width: fit-content;
+  }
+
+  
+  .forms input[type=text].input {
+    padding: 10px 20rem;
+    font-size: 0.75rem;
+    border: 2px #101011 solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+    margin-left: 3rem;
+  }
+  
+.formss button{
+    margin-top: 2%;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(69, 69, 68);
+}
+  
+
+
+
+
+
+
+
+
+/*@media (max-widht: 600px){
+    html{
+        font-size: 55%;
+    }
+} */
